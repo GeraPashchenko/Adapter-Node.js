@@ -45,7 +45,7 @@ app.get('/teacher', function (req, res) {
   let strzapr = "http://cist.nure.ua/ias/app/tt/WEB_IAS_TT_GNR_RASP.GEN_TEACHER_KAF_RASP?ATypeDoc=3&Aid_sotr=" + id + "&Aid_kaf=0&ADateStart=" + req.query.start + "&ADateEnd=" + req.query.end + "&AMultiWorkSheet=0"
   let request = http.get(strzapr, function (response) {
     response.pipe(file);
-    Parsing(file);
+    Parsing();
   });
   console.log(req.body);
   var FinalJson = fs.readFileSync("./json/Final.json", 'utf8');
@@ -75,7 +75,7 @@ app.get('/groups', function (req, res) {//обработка запроса ра
   let strzapr = "http://cist.nure.ua/ias/app/tt/WEB_IAS_TT_GNR_RASP.GEN_GROUP_POTOK_RASP?ATypeDoc=3&Aid_group=" + id + "&Aid_potok=0&ADateStart=" + req.query.start + "&ADateEnd=" + req.query.end + "&AMultiWorkSheet=0"
   let request = http.get(strzapr, function (response) {
     response.pipe(file);
-    Parsing(file);
+    Parsing();
   });
   console.log(req.body);
   var FinalJson = fs.readFileSync("./json/Final.json", 'utf8');
@@ -87,7 +87,7 @@ console.log('Сервер стартовал!');
 
 
 ////////////////////////////////////////////////////////////////////////////
-function Parsing(file) {
+function Parsing() {
   var ListOfPars = [];//список пар
   let listOfGroupIds = [];//список всех найденых id групп 
   var buffGroupsList = [];//буферный список
@@ -105,7 +105,7 @@ function Parsing(file) {
 
   fs.writeFileSync('./json/groups_id.json', JSON.stringify(listOfGroupIds));//записываем в файл полный список групп 
 
-  fs.readFile(file, function (err, data) { //считали данные из файла, полученого от запроса
+  fs.readFile("csv/fileFromCist.csv", function (err, data) { //считали данные из файла, полученого от запроса
     if (err) throw err;
     data = iconv.encode(iconv.decode(data, "windows-1251"), "utf-8").toString(); //декодировали для отображения кириллицы вместо крокозябр
     data = data.replace(/"+/g, ''); //убираем все кавычки в строке 
