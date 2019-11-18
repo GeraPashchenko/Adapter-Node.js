@@ -41,7 +41,7 @@ app.get('/teacher', function (req, res) {
       var id = listOfTeacherIds[i].id;
     }
   }
-  let file = fs.createWriteStream("csv/fileFromeCist.csv");
+  let file = fs.createWriteStream("csv/fileFromCist.csv");
   let strzapr = "http://cist.nure.ua/ias/app/tt/WEB_IAS_TT_GNR_RASP.GEN_TEACHER_KAF_RASP?ATypeDoc=3&Aid_sotr=" + id + "&Aid_kaf=0&ADateStart=" + req.query.start + "&ADateEnd=" + req.query.end + "&AMultiWorkSheet=0"
   let request = http.get(strzapr, function (response) {
     response.pipe(file);
