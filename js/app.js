@@ -78,7 +78,6 @@ app.get('/groups', function (req, res) {//обработка запроса ра
     Parsing(file);
   });
   console.log(req.body);
-  // res.render('groupRasp', { group: req.query.group });
   var FinalJson = fs.readFileSync("./json/Final.json", 'utf8');
   res.end(FinalJson);
 });
