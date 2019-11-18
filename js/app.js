@@ -261,7 +261,7 @@ function Parsing() {
       this.groups = groupslist;
       this.teachers = [];
       this.subjects = Subject_List;
-      this.types = functions.types;
+      this.types = constructors.types;
     }
 
     var Final = new FinalJSON();// создание финального объекта файла Final.json
