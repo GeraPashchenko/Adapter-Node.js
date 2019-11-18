@@ -47,7 +47,6 @@ app.get('/teacher', function (req, res) {
     response.pipe(file);
     Parsing();
   });
-  console.log(req.body);
   var FinalJson = fs.readFileSync("./json/Final.json", 'utf8');
   res.end(FinalJson);
 });
