@@ -264,7 +264,7 @@ function Parsing() {
     }
 
     var Final = new FinalJSON();// создание финального объекта файла Final.json
-    fs.writeFile("./json/Final.json", JSON.stringify(Final), function (error) { //записываем данные в файл
+    fs.writeFile("./json/Final.json", JSON.stringify(Final,null,4), function (error) { //записываем данные в файл
       if (error) throw error;
       console.log("Файл успешно записан");  // уведомление о завершении
     });
