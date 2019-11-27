@@ -1,5 +1,5 @@
 .vscode
 node_modules
-write.json
-Final.json
-fileFromCist.csv
+json/write.json
+json/Final.json
+csv/fileFromCist.csv
