@@ -78,7 +78,8 @@ app.get('/groups', function (req, res) {//обработка запроса ра
   });
   console.log(req.body);
   var FinalJson = fs.readFileSync("./json/Final.json", 'utf8');
-  res.end(FinalJson);
+  var data = iconv.encode(iconv.decode(FinalJson, "windows-1251"), "utf-8").toString(); //декодировали для отображения кириллицы вместо крокозябр
+  res.end(data);
 });
 
 app.listen(8080);

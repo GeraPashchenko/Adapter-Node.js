@@ -1,362 +1,126 @@
 [
     {
-        "theme": "ВМ Лк 414і ТРІТЗР-19-1",
-        "start_date": "11/12/2019",
+        "theme": "КСх Лб 229 КІУКІ-17-5",
+        "start_date": "11/11/2019",
+        "start_time": "07:45:00",
+        "end_date": "11.11.2019",
+        "end_time": "09:20:00",
+        "date": "11/11/2019 07:45:00",
+        "para": 1,
+        "group": [
+            {
+                "group_id": 6283461,
+                "group_name": "КІУКІ-17-5"
+            }
+        ],
+        "subject": "КСх",
+        "kind": "Лб",
+        "cabinet": "229"
+    },
+    {
+        "theme": "КСх Лб 229 КІУКІ-17-5",
+        "start_date": "11/11/2019",
         "start_time": "09:30:00",
-        "end_date": "12.11.2019",
+        "end_date": "11.11.2019",
         "end_time": "11:05:00",
-        "date": "11/12/2019 09:30:00",
+        "date": "11/11/2019 09:30:00",
         "para": 2,
         "group": [
             {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
+                "group_id": 6283461,
+                "group_name": "КІУКІ-17-5"
             }
         ],
-        "subject": "ВМ",
-        "kind": "Лк",
-        "cabinet": "414і"
+        "subject": "КСх",
+        "kind": "Лб",
+        "cabinet": "229"
     },
     {
-        "theme": "ВМ Пз 302і ТРІТЗР-19-1",
-        "start_date": "11/14/2019",
-        "start_time": "11:15:00",
-        "end_date": "14.11.2019",
-        "end_time": "12:50:00",
-        "date": "11/14/2019 11:15:00",
-        "para": 3,
+        "theme": "ІТех Лб 33з КІУКІ-17-5",
+        "start_date": "11/18/2019",
+        "start_time": "07:45:00",
+        "end_date": "18.11.2019",
+        "end_time": "09:20:00",
+        "date": "11/18/2019 07:45:00",
+        "para": 1,
         "group": [
             {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
+                "group_id": 6283461,
+                "group_name": "КІУКІ-17-5"
             }
         ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "302і"
+        "subject": "ІТех",
+        "kind": "Лб",
+        "cabinet": "33з"
     },
     {
-        "theme": "Конс Конс 325і",
-        "start_date": "11/14/2019",
-        "start_time": "13:10:00",
-        "end_date": "14.11.2019",
-        "end_time": "14:45:00",
-        "date": "11/14/2019 13:10:00",
-        "para": 4,
+        "theme": "ІТех Лб 33з КІУКІ-17-5",
+        "start_date": "11/18/2019",
+        "start_time": "09:30:00",
+        "end_date": "18.11.2019",
+        "end_time": "11:05:00",
+        "date": "11/18/2019 09:30:00",
+        "para": 2,
+        "group": [
+            {
+                "group_id": 6283461,
+                "group_name": "КІУКІ-17-5"
+            }
+        ],
+        "subject": "ІТех",
+        "kind": "Лб",
+        "cabinet": "33з"
+    },
+    {
+        "theme": "СКБД Лб 34з КІУКІ-17-5",
+        "start_date": "11/25/2019",
+        "start_time": "07:45:00",
+        "end_date": "25.11.2019",
+        "end_time": "09:20:00",
+        "date": "11/25/2019 07:45:00",
+        "para": 1,
+        "group": [
+            {
+                "group_id": 6283461,
+                "group_name": "КІУКІ-17-5"
+            }
+        ],
+        "subject": "СКБД",
+        "kind": "Лб",
+        "cabinet": "34з"
+    },
+    {
+        "theme": "СКБД Лб 34з КІУКІ-17-5",
+        "start_date": "12/09/2019",
+        "start_time": "07:45:00",
+        "end_date": "09.12.2019",
+        "end_time": "09:20:00",
+        "date": "12/09/2019 07:45:00",
+        "para": 1,
+        "group": [
+            {
+                "group_id": 6283461,
+                "group_name": "КІУКІ-17-5"
+            }
+        ],
+        "subject": "СКБД",
+        "kind": "Лб",
+        "cabinet": "34з"
+    },
+    {
+        "theme": "",
+        "start_date": "",
+        "start_time": "",
+        "end_date": "",
+        "end_time": "",
+        "date": " ",
+        "para": 8,
         "group": [
             {
                 "group_id": 7421536,
                 "group_name": "GIUD"
             }
         ],
-        "subject": "Конс",
-        "kind": "Конс",
-        "cabinet": "325і"
-    },
-    {
-        "theme": "ВМ Пз 147 КІУКІу-19-1",
-        "start_date": "11/15/2019",
-        "start_time": "09:30:00",
-        "end_date": "15.11.2019",
-        "end_time": "11:05:00",
-        "date": "11/15/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706369,
-                "group_name": "КІУКІу-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "147"
-    },
-    {
-        "theme": "ВМ Лк 147 ТРІТЗР-19-1",
-        "start_date": "11/15/2019",
-        "start_time": "11:15:00",
-        "end_date": "15.11.2019",
-        "end_time": "12:50:00",
-        "date": "11/15/2019 11:15:00",
-        "para": 3,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Лк",
-        "cabinet": "147"
-    },
-    {
-        "theme": "ВМ Пз 140 ТРІТЗР-19-1",
-        "start_date": "11/19/2019",
-        "start_time": "09:30:00",
-        "end_date": "19.11.2019",
-        "end_time": "11:05:00",
-        "date": "11/19/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "140"
-    },
-    {
-        "theme": "ВМ Пз 145 ТРІТЗР-19-1",
-        "start_date": "11/21/2019",
-        "start_time": "11:15:00",
-        "end_date": "21.11.2019",
-        "end_time": "12:50:00",
-        "date": "11/21/2019 11:15:00",
-        "para": 3,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "145"
-    },
-    {
-        "theme": "ВМ Пз 147 КІУКІу-19-1",
-        "start_date": "11/22/2019",
-        "start_time": "09:30:00",
-        "end_date": "22.11.2019",
-        "end_time": "11:05:00",
-        "date": "11/22/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706369,
-                "group_name": "КІУКІу-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "147"
-    },
-    {
-        "theme": "ВМ Лк 147 ТРІТЗР-19-1",
-        "start_date": "11/22/2019",
-        "start_time": "11:15:00",
-        "end_date": "22.11.2019",
-        "end_time": "12:50:00",
-        "date": "11/22/2019 11:15:00",
-        "para": 3,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Лк",
-        "cabinet": "147"
-    },
-    {
-        "theme": "ВМ Лк 414і ТРІТЗР-19-1",
-        "start_date": "11/26/2019",
-        "start_time": "09:30:00",
-        "end_date": "26.11.2019",
-        "end_time": "11:05:00",
-        "date": "11/26/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Лк",
-        "cabinet": "414і"
-    },
-    {
-        "theme": "ВМ Пз 610і ТРІТЗР-19-1",
-        "start_date": "11/28/2019",
-        "start_time": "11:15:00",
-        "end_date": "28.11.2019",
-        "end_time": "12:50:00",
-        "date": "11/28/2019 11:15:00",
-        "para": 3,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "610і"
-    },
-    {
-        "theme": "ВМ Пз 147 КІУКІу-19-1",
-        "start_date": "11/29/2019",
-        "start_time": "09:30:00",
-        "end_date": "29.11.2019",
-        "end_time": "11:05:00",
-        "date": "11/29/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706369,
-                "group_name": "КІУКІу-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "147"
-    },
-    {
-        "theme": "ВМ Лк 147 ТРІТЗР-19-1",
-        "start_date": "11/29/2019",
-        "start_time": "11:15:00",
-        "end_date": "29.11.2019",
-        "end_time": "12:50:00",
-        "date": "11/29/2019 11:15:00",
-        "para": 3,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Лк",
-        "cabinet": "147"
-    },
-    {
-        "theme": "Конс Конс 313і",
-        "start_date": "11/29/2019",
-        "start_time": "14:55:00",
-        "end_date": "29.11.2019",
-        "end_time": "16:30:00",
-        "date": "11/29/2019 14:55:00",
-        "para": 5,
-        "group": [
-            {
-                "group_id": 7421536,
-                "group_name": "GIUD"
-            }
-        ],
-        "subject": "Конс",
-        "kind": "Конс",
-        "cabinet": "313і"
-    },
-    {
-        "theme": "ВМ Пз 323і ТРІТЗР-19-1",
-        "start_date": "12/03/2019",
-        "start_time": "09:30:00",
-        "end_date": "03.12.2019",
-        "end_time": "11:05:00",
-        "date": "12/03/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "323і"
-    },
-    {
-        "theme": "ВМ Пз 145 ТРІТЗР-19-1",
-        "start_date": "12/05/2019",
-        "start_time": "11:15:00",
-        "end_date": "05.12.2019",
-        "end_time": "12:50:00",
-        "date": "12/05/2019 11:15:00",
-        "para": 3,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "145"
-    },
-    {
-        "theme": "Конс Конс 325і",
-        "start_date": "12/05/2019",
-        "start_time": "13:10:00",
-        "end_date": "05.12.2019",
-        "end_time": "14:45:00",
-        "date": "12/05/2019 13:10:00",
-        "para": 4,
-        "group": [
-            {
-                "group_id": 7421536,
-                "group_name": "GIUD"
-            }
-        ],
-        "subject": "Конс",
-        "kind": "Конс",
-        "cabinet": "325і"
-    },
-    {
-        "theme": "ВМ Пз 147 КІУКІу-19-1",
-        "start_date": "12/06/2019",
-        "start_time": "09:30:00",
-        "end_date": "06.12.2019",
-        "end_time": "11:05:00",
-        "date": "12/06/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706369,
-                "group_name": "КІУКІу-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Пз",
-        "cabinet": "147"
-    },
-    {
-        "theme": "ВМ Лк 147 ТРІТЗР-19-1",
-        "start_date": "12/06/2019",
-        "start_time": "11:15:00",
-        "end_date": "06.12.2019",
-        "end_time": "12:50:00",
-        "date": "12/06/2019 11:15:00",
-        "para": 3,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Лк",
-        "cabinet": "147"
-    },
-    {
-        "theme": "ВМ Лк 414і ТРІТЗР-19-1",
-        "start_date": "12/10/2019",
-        "start_time": "09:30:00",
-        "end_date": "10.12.2019",
-        "end_time": "11:05:00",
-        "date": "12/10/2019 09:30:00",
-        "para": 2,
-        "group": [
-            {
-                "group_id": 7706489,
-                "group_name": "ТРІТЗР-19-1"
-            }
-        ],
-        "subject": "ВМ",
-        "kind": "Лк",
-        "cabinet": "414і"
+        "subject": ""
     }
 ]
