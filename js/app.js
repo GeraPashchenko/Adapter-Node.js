@@ -11,15 +11,15 @@ var app = express();
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
-  res.render('index.ejs');
+  res.render('Adapter/index.ejs');
 });
 
 app.get("/groupsForm.ejs", function (req, res) {
-  res.render("groupsForm");
+  res.render("Adapter/groupsForm");
 });
 
 app.get("/teachersForm.ejs", function (req, res) {
-  res.render("teachersForm");
+  res.render("Adapter/teachersForm");
 });
 
 app.get('/teacher', function (req, res) {
